@@ -30,9 +30,13 @@ def find_min(a):
 
     return minValue
 
+def find_maxFunc(a):
+
+    return max(a)
 
 v = [17, 33, 66, 88, 34, 22, 6]
 
 print(find_max(v))
 print(findmaxidx(v))
 print(find_min(v))
+print(find_maxFunc(v))
